@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+    gap: 20px;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: auto auto;
+    background-color: #0e70e077;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.logo {
+    grid-column: 1 / 2;
+    /* grid-row: 1 / 3; */
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.title {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nav {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* Sección de inscripción */
+.main {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+}
+
+.inscripcion-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Botón */
+.btn-blanco-azul {
+    background-color: white;
+    color: #007bff;
+    border: 2px solid #007bff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-blanco-azul:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Pie de página */
+.footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: left;
+    gap: 20px;
+}
+
+.footer-column {
+    padding: 10px;
+}
+
+.footer-column h3 {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.social-media {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}

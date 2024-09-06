@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDW</title>
+    <link rel="stylesheet" href="../css/inscripciones.css">
+    <link rel="shortcut icon" href="../img/icon2.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <img src="../img/icon2.png" style="width: 40%;">
+            </div>
+            <div class="title">PORTAL DE ENSEÑANZA EN DESARROLLO WEB</div>
+            <nav class="nav">
+                <a href="./index.html">Inicio</a>
+                <a href="./inscripciones.html">Inscripciones</a>
+                <a href="./programas.html">Programas</a>
+                <a href="./cursoscortos.html">Cursos cortos</a>
+            </nav>
+        </header>
+
+        <main class="main">
+            <h1>Inscripción a Cursos de Programación</h1>
+            <p>Por favor, completa el formulario para inscribirte en uno de nuestros cursos.</p>
+            <form class="inscripcion-form" action="#" method="post">
+                <div class="form-group">
+                    <label for="nombre">Nombre Completo:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono" required>
+                </div>
+                <div class="form-group">
+                    <label for="curso">Selecciona un Curso:</label>
+                    <select id="curso" name="curso" required>
+                        <option value="flutter">Flutter</option>
+                        <option value="android">Android Studio</option>
+                        <option value="ionic">Ionic</option>
+                        <option value="xamarin">Xamarin</option>
+                        <option value="azure">Microsoft Azure</option>
+                        <option value="devops">DevOps Essentials Professional</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje (opcional):</label>
+                    <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+                </div>
+                <button type="submit" class="btn-blanco-azul">Inscribirse</button>
+            </form>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-column">
+                <h3>De interés</h3>
+                <ul>
+                    <li><a href="#">Sistema Soporte – PQRS</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Modalidades</a></li>
+                    <li><a href="#">Valores matrícula año 2022</a></li>
+                    <li><a href="#">Nuestra Historia</a></li>
+                    <li><a href="#">Programa tu curso</a></li>
+                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#">Política de tratamiento de datos personales</a></li>
+                    <li><a href="#">Trabaje con Nosotros</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Portales</h3>
+                <ul>
+                    <li><a href="#">Portal Educación Virtual</a></li>
+                    <li><a href="#">Portal Educación Presencial-OnLine (Clases en Vivo)</a></li>
+                    <li><a href="#">Portal SunChemical</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Contactos</h3>
+                <ul>
+                    <li>📞 Teléfono:</li>
+                    <li>📱 Celular:</li>
+                    <li>✉️ E-mail:</li>
+                </ul>
+                <div class="social-media">
+                    <a href="#"><img src="https://via.placeholder.com/20x20?text=T" alt="Twitter"></a>
+                    <a href="#"><img src="https://via.placeholder.com/20x20?text=F" alt="Facebook"></a>
+                    <a href="#"><img src="https://via.placeholder.com/20x20?text=I" alt="Instagram"></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
